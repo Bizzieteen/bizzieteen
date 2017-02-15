@@ -4432,8 +4432,8 @@ td.cart-list-item-price {
 	-moz-background-size: contain;
 	background-size: contain;
 	display: block;
-	height: 30px;
-	background-image: url("../img/logo.png");
+	height: 75px;
+	background-image: url("../img/logo-white.png");
 	background-repeat: no-repeat;
 	background-position: left center;
 	line-height: 30px;
@@ -4441,7 +4441,7 @@ td.cart-list-item-price {
 
 .navigation-header .navigation-brand .brand-logo .logo.logo-alt {
 	display: none;
-	background-image: url("../img/logo-inverted.png");
+	background-image: url("../img/logo.png");
 }
 
 .navigation-header .navigation-brand .brand-logo h4 {
@@ -5430,10 +5430,11 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-moz-background-size: cover;
 	background-size: cover;
 	position: relative;
-	background-image: url("../img/background/low_poly_background.jpg");
-	background-repeat: no-repeat;
+/*	background-image: url("../img/background/low_poly_background.jpg");
+*/	background-repeat: no-repeat;
 	background-position: top center;
 	background-attachment: fixed;
+	background-color: #0a3a3c;
 }
 
 .static-header .heading-block {
