@@ -5590,9 +5590,10 @@ body.always-mobile .fixed-menu .navigation-header.white-dropdown .navigation-bar
 	-moz-background-size: contain;
 	background-size: contain;
 	padding: 35px 0 0;
-	background-image: url("../img/features/video-container.png");
+	/*background-image: url("../img/features/video-container.png");*/
 	background-repeat: no-repeat;
 	background-position: center;
+	margin-bottom: 20px;
 }
 
 .video-wrapper .video-container {
