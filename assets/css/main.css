@@ -1094,8 +1094,7 @@ blockquote::before {
   left: 22px;
 }
 
-.features div[class="row"]:nth-child(2) .col-md-7 img,
-.features div[class="row"]:nth-child(4) .col-md-7 img { left: -175px; }
+.features div[class="row"]:nth-child(even) .col-md-7 img { left: -175px; }
 
 .featured-sites li { padding: 0 3em; }
 
