@@ -68,7 +68,7 @@ a {
 
 a:hover,
 a:focus {
-  color: #fa5454;
+  color: #136665;
   text-decoration: none;
 }
 
@@ -150,7 +150,7 @@ strong { font-weight: 600; }
 
 .btn:hover {
   color: #fff;
-  background-color: #fa5454;
+  background-color: #136665;
 }
 
 .btn:active,
@@ -159,7 +159,7 @@ strong { font-weight: 600; }
 .btn:active:focus {
   color: #fff;
   outline: none;
-  background-color: #fa5454;
+  background-color: #136665;
 }
 
 .cta-btn p {
@@ -210,7 +210,7 @@ strong { font-weight: 600; }
 .navbar-default.stuck .navbar-nav>li>a { color: #4c4c4c; }
 
 .navbar-default.stuck .navbar-nav > li > a:hover,
-.navbar-default.stuck .navbar-nav > li > a:focus { color: #fa5454; }
+.navbar-default.stuck .navbar-nav > li > a:focus { color: #136665; }
 
 .navbar-default .btn { font-size: 16px; }
 
@@ -223,7 +223,7 @@ strong { font-weight: 600; }
 
 .navbar-default.stuck .navbar-nav .btn:hover,
 .navbar-default.stuck .navbar-nav .btn:focus {
-  background: #fa5454!important;
+  background: #136665!important;
   color: #fff;
 }
 
@@ -346,6 +346,7 @@ transform:translateY(0);
 
 .features div[class="row"]:nth-child(1),
 .features div[class="row"]:nth-child(2) { margin-bottom: 3em; }
+.features div[class="row"]:nth-child(4) .col-md-7 img { padding-top: 2.25em; }
 
 .features article { margin-top: 1.5em; }
 
@@ -793,7 +794,7 @@ blockquote cite {
 }
 
 .form-control:focus {
-  border-color: #fa5454;
+  border-color: #136665;
   outline: 0;
   box-shadow: none;
 }
@@ -834,7 +835,7 @@ blockquote cite {
   font-size: 18px;
 }
 
-.footer-links a:hover { color: #fa5454; }
+.footer-links a:hover { color: #136665; }
 
 .footer-links a:first-child { padding-right: .4em; }
 
@@ -842,9 +843,9 @@ blockquote cite {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background: #1A8B8A url(../img/chat-icon.svg) center center no-repeat;
+  background: #1A8B8A url(../img/chat-icon.svg) center 58% no-repeat;
   position: fixed;
-  bottom: 120px;
+  bottom: 117px;
   right: 30px;
   box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
   transition: all 0.2s ease-in-out;
@@ -1040,7 +1041,7 @@ blockquote::before {
 @media (min-width: 992px) {
 
 .hero-section {
-  padding: 3em 0 12.75em;
+  padding: 5em 0 13.5em;
   background: none;
 }
 
@@ -1062,7 +1063,7 @@ blockquote::before {
   padding: .75em 1.5em;
 }
 
-.navbar-default .btn:hover { background-color: #fa5454 !important; }
+.navbar-default .btn:hover { background-color: #136665 !important; }
 
 .navbar-brand { padding: 0; }
 
@@ -1093,7 +1094,8 @@ blockquote::before {
   left: 22px;
 }
 
-.features div[class="row"]:nth-child(2) .col-md-7 img { left: -277px; }
+.features div[class="row"]:nth-child(2) .col-md-7 img,
+.features div[class="row"]:nth-child(4) .col-md-7 img { left: -175px; }
 
 .featured-sites li { padding: 0 3em; }
 
