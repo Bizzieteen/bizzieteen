@@ -1,4 +1,4 @@
-var mapLocation = new google.maps.LatLng(40.6700, -73.9400); //change coordinates here
+var mapLocation = new google.maps.LatLng(33.770780, -84.382691); //change coordinates here
 var marker;
 var map;
 
@@ -19,8 +19,8 @@ function initialize() {
     var contentString = '<div class="map-info-box">'
     + '<div class="map-head">'
     + '<h3>Launch</h3></div>'
-    + '<p class="map-address"><i class="fa fa-map-marker"></i> Lorem ipsum dolor sit amet <br><i class="fa fa-phone"></i> 604-788-1832<br><span class="map-email"><i class="fa fa-envelope"></i> info@sitename.com</span></p>'
-    + '<p><a href="https://www.google.com/maps/place/851+6th+Ave,+New+York,+NY+10001,+USA/data=!4m2!3m1!1s0x89c259af44f80211:0xbd87d30d3c7da9d2?sa=X&amp;ei=KqAdVazxJMTkuQS9sIGIBQ&amp;aved=0CB0Q8gEwAA" target="_blank">Open on Google Maps</a></p></div>';
+    + '<p class="map-address"><i class="fa fa-map-marker"></i> Bizzieteen <br><i class="fa fa-phone"></i> 404-376-3847<br><span class="map-email"><i class="fa fa-envelope"></i> hey@bizzieteen.com</span></p>'
+    + '<p><a href="https://www.google.com/maps/place/PO+54261,+Atlanta,+GA+30308,+USA" target="_blank">Open on Google Maps</a></p></div>';
 
 
     var infowindow = new google.maps.InfoWindow({
@@ -32,7 +32,7 @@ function initialize() {
     marker = new google.maps.Marker({
         map: map,
         draggable: true,
-        title: 'Site Name', //change title here
+        title: 'Bizzieteen', //change title here
         icon: image,
         animation: google.maps.Animation.DROP,
         position: mapLocation
