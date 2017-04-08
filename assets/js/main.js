@@ -31,7 +31,7 @@ $(function() {
 
 
      $('.tweet').twittie({
-         username: 'envatomarket', // change username here
+         username: 'bizzieteen', // change username here
          dateFormat: '%b. %d, %Y',
          template: '{{tweet}} {{user_name}}',
          count: 10
