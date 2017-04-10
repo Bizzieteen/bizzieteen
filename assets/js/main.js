@@ -42,6 +42,7 @@ $(function() {
         username: 'bizzieteen', // change username here
         dateFormat: '%b. %d, %Y',
         template: '{{tweet}} {{user_name}}',
+        apiPath:"/api/tweet.php",
         count: 10
     }, function() {
         var item = $('.tweet ul');
