@@ -452,6 +452,18 @@
     </section>
     <!--contact us end-->
     <!--sub-form-->
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    #mc_embed_signup {
+        background: #fff;
+        clear: left;
+        font: 14px Helvetica, Arial, sans-serif;
+    }
+    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <!--End mc_embed_signup-->
     <section class="sub-form section-spacing text-center">
         <div class="container">
             <header class="section-header">
@@ -460,9 +472,13 @@
             </header>
             <div class="row">
                 <div class="col-md-6 center-block col-sm-11">
-                    <form id="mc-form">
+                    <form id="mc-form" action="//bizzieteen.us14.list-manage.com/subscribe/post?u=db5162412ad739b254b836fcc&amp;id=dbbd0c2a06">
                         <div class="input-group">
-                            <input type="email" class="form-control" placeholder="Email Address" required id="mc-email">
+                            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email Address" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
+                                <input type="text" name="b_db5162412ad739b254b836fcc_dbbd0c2a06" tabindex="-1" value="">
+                            </div>
                             <span class="input-group-btn">
             <button type="submit" class="btn btn-default">SUBSCRIBE <i class="fa fa-envelope"></i> </button>
             </span> </div>
@@ -493,7 +509,8 @@
                 </div>
             </div>
             <!--chat-btn-->
-            <a href="index.html" class="chat-btn" data-toggle="modal" data-target="#modal-contact-form"></a>
+            <!--             <a href="#" class="chat-btn" data-toggle="modal" data-target="#modal-contact-form"></a>
+ -->
             <!--chat-btn end-->
         </div>
     </footer>
