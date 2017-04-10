@@ -19,7 +19,7 @@ function initialize() {
     var contentString = '<div class="map-info-box">'
     + '<div class="map-head">'
     + '<h3>Launch</h3></div>'
-    + '<p class="map-address"><i class="fa fa-map-marker"></i> Bizzieteen <br><i class="fa fa-phone"></i> 404-376-3847<br><span class="map-email"><i class="fa fa-envelope"></i> hey@bizzieteen.com</span></p>'
+    + '<p class="map-address"><i class="fa fa-map-marker"></i> Bizzieteen <br><i class="fa fa-phone"></i> 404-654-0788<br><span class="map-email"><i class="fa fa-envelope"></i> hey@bizzieteen.com</span></p>'
     + '<p><a href="https://www.google.com/maps/place/PO+54261,+Atlanta,+GA+30308,+USA" target="_blank">Open on Google Maps</a></p></div>';
 
 
