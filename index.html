@@ -16,10 +16,18 @@
     <link rel="manifest" href="icons/manifest.json">
     <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#1a8b8a">
     <meta name="theme-color" content="#ffffff">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        @media (min-width: 992px) {
+            .features .row img,
+            img.feature-img {
+                position: static !important;
+                width: 100% !important;
+            }
+            .features.section-spacing .row {
+                clear: both !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -110,7 +118,8 @@
             <header class="section-header">
                 <h2>How it Works</h2>
                 <!--                 <h3>Reasons why you should choose this product</h3>
- --></header>
+ -->
+            </header>
             <div class="row">
                 <div class="col-sm-4"> <img src="assets/img/benefits-1.png" alt="benefits of product">
                     <h4>Explore </h4>
@@ -133,8 +142,8 @@
         <div class="container">
             <!--feature 1-->
             <div class="row">
-                <div class="col-md-7 col-md-push-5 text-center"> <img src="assets/img/feature-1.png" alt="feature"> </div>
-                <div class="col-md-5 col-md-pull-7">
+                <div class="col-md-7 pull-right text-center"> <img src="assets/img/feature-1.png" class="feature-img" alt="feature"> </div>
+                <div class="col-md-5 pull-left">
                     <article>
                         <h2>Explore the Future. Everything is Possible.</h2>
                         <p>Choose what you want to explore and learn about in or outside of class. Simply enter a “Live Pin” from your teacher to access your personalized “Grow Space” which includes:</p>
@@ -149,11 +158,12 @@
             <!--feature 1 end-->
             <!--feature 3-->
             <div class="row">
-                <div class="col-md-7 text-center"> <img src="assets/img/feature-3.png" alt="feature"> </div>
+                <div class="col-md-7 text-center"> <img src="assets/img/feature-3.png" class="feature-img" alt="feature"> </div>
                 <div class="col-md-5">
                     <article>
                         <h2>Make Learning Personal.</h2>
-                        <p>Experience learning from industry professionals about topics that you are interested in and want to pursue in the future. Through the “Grow Space” select your own personalized courses that fit your interests and connect to what you are learning in class. As you learn more, your “Grow Space” will learn more about what you want to learn to make your learning fit you. </p>
+                        <p>Experience learning from industry professionals about topics that you are interested in and want to pursue in the future. Through the “Grow Space” select your own personalized courses that fit your interests and connect to what
+                            you are learning in class. As you learn more, your “Grow Space” will learn more about what you want to learn to make your learning fit you. </p>
                         <!--   <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -165,8 +175,10 @@
             <!--feature 3 end-->
             <!--feature 2-->
             <div class="row">
-                <div class="col-md-7 col-md-push-5 text-center"> <img src="assets/img/feature-2.png" alt="feature"> </div>
-                <div class="col-md-5 col-md-pull-7">
+                <div class="col-md-7 pull-right text-center">
+                    <img src="assets/img/feature-2.png" class="feature-img" alt="feature">
+                </div>
+                <div class="col-md-5 pull-left">
                     <article>
                         <h2>Learn Anywhere. Learn Anytime.</h2>
                         <p>Learn how the stuff you learn in class connects to real careers from any device. In class or outside of class, complete select learning modules in your “Grow Space” that teach you 21st century career skills for your future success.</p>
@@ -181,11 +193,14 @@
             <!--feature 2 end-->
             <!--feature 5-->
             <div class="row">
-                <div class="col-md-7 text-center"> <img src="assets/img/feature-5.png" alt="feature"> </div>
+                <div class="col-md-7 text-center">
+                    <img src="assets/img/feature-5.png" class="feature-img" alt="feature">
+                </div>
                 <div class="col-md-5">
                     <article>
                         <h2>Show What You Know. </h2>
-                        <p>As you complete the coursework in your “Grow Space” you will earn points toward a digital badge. Once you are awarded a digital badge, you will receive a notice on your profile of your new shiny badge that you can show off to colleges, employers, business clients or customers and more. </p>
+                        <p>As you complete the coursework in your “Grow Space” you will earn points toward a digital badge. Once you are awarded a digital badge, you will receive a notice on your profile of your new shiny badge that you can show off to colleges,
+                            employers, business clients or customers and more. </p>
                         <!-- <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -197,12 +212,15 @@
             <!--feature 5 end-->
             <!--feature 4-->
             <div class="row">
-                <div class="col-md-7 col-md-push-5  text-center"> <img src="assets/img/feature-4.png" alt="feature"> </div>
-                <div class="col-md-5 col-md-pull-7">
+                <div class="col-md-7 pull-right text-center">
+                    <img src="assets/img/feature-4.png" class="feature-img" alt="feature">
+                </div>
+                <div class="col-md-5 pull-left">
                     <article>
                         <h2>Show Why Your Talents Are Valuable. </h2>
-                        <p>Through meaningful projects in class from our business partners, you will develop an amazing portfolio of work samples and badges to display on your personal profile. Don’t be shy, use this space to show just how amazing you really are to employers or even your own clients for your business. </p>
-                       <!--  <ul>
+                        <p>Through meaningful projects in class from our business partners, you will develop an amazing portfolio of work samples and badges to display on your personal profile. Don’t be shy, use this space to show just how amazing you really
+                            are to employers or even your own clients for your business. </p>
+                        <!--  <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
                             <li>Nulla nec lacinia velit</li>
@@ -213,11 +231,14 @@
             <!--feature 4 end-->
             <!--feature 4-->
             <div class="row">
-                <div class="col-md-7 text-center"> <img src="assets/img/feature-9.png" alt="feature"> </div>
+                <div class="col-md-7 text-center">
+                    <img src="assets/img/feature-9.png" class="feature-img" alt="feature">
+                </div>
                 <div class="col-md-5">
                     <article>
                         <h2>Unlock Opportunities. Real-World Application.</h2>
-                        <p>With each digital badge, you unlock work-based learning opportunities from our business partners for you to employ the skills that you have learned in the real-world. You will have the chance to work with all types of businesses to build your professional portfolio, gain work experience and even get paid. </p>
+                        <p>With each digital badge, you unlock work-based learning opportunities from our business partners for you to employ the skills that you have learned in the real-world. You will have the chance to work with all types of businesses
+                            to build your professional portfolio, gain work experience and even get paid. </p>
                         <!-- <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -532,18 +553,8 @@
         </div>
     </div>
     <!--contact form modal end-->
-    <script src="assets/js/jquery-2.1.4.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.animateNumber.min.js"></script>
-    <script src="assets/js/waypoints-sticky.min.js"></script>
-    <script src="assets/js/retina.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/tweetie.min.js"></script>
-    <script src="assets/js/main.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
-    <script src="assets/js/gmap.js"></script>
+    <script src="dist/bundle.js"></script>
 </body>
 
 </html>
