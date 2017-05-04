@@ -40,3 +40,5 @@ jspm_packages
 
 # Remove Sublime sftp doc
 sftp-config.json
+
+dist/
