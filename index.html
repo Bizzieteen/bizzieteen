@@ -2,11 +2,11 @@
 <html>
 
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700" rel="stylesheet">
+    <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300,700" rel="stylesheet">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bizzieteen</title>
+    <title>Launch - Startup Landing Page</title>
     <meta name="description" content="Startup Landing Page">
     <link rel="shortcut icon" href="icons/favicon.ico" type="image/x-icon">
     <link rel="icon" href="icons/favicon.ico" type="image/x-icon">
@@ -16,10 +16,18 @@
     <link rel="manifest" href="icons/manifest.json">
     <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#1a8b8a">
     <meta name="theme-color" content="#ffffff">
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-    <link href="assets/css/magnific-popup.css" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <style>
+        @media (min-width: 992px) {
+            .features .row img,
+            img.feature-img {
+                position: static !important;
+                width: 100% !important;
+            }
+            .features.section-spacing .row {
+                clear: both !important;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -48,12 +56,11 @@
  -->
                         <li><a href="index.html#team">Team</a></li>
                         <li><a href="index.html#contact">Contact</a></li>
-                        <li><a href="index.html#roundtable">Business Roundtable</a></li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right">
                         <!--                         <li><a href="index.html#"><i class="fa fa-sign-in"></i> Login</a></li>
  -->
-                        <li><a href="https://goo.gl/forms/EQz36ef0yyi140U23" class="btn">JOIN US</a></li>
+                        <li><a href="index.html#" class="btn">JOIN US</a></li>
                     </ul>
                 </div>
             </div>
@@ -68,7 +75,7 @@
                     <div class="play-btn">
                         <a href="https://vimeo.com/203844609" class="play litebox-hero"><img src="assets/img/play-btn.png" alt="play"></a>
                     </div>
-                    <div class="cta-btn"> <a href="https://goo.gl/forms/EQz36ef0yyi140U23" class="btn">GET STARTED</a>
+                    <div class="cta-btn"> <a href="index.html#" class="btn">GET STARTED</a>
                         <!--           <p><span class="total-number-1">0</span>K Worldwide Signups</p>
  -->
                     </div>
@@ -111,7 +118,8 @@
             <header class="section-header">
                 <h2>How it Works</h2>
                 <!--                 <h3>Reasons why you should choose this product</h3>
- --></header>
+ -->
+            </header>
             <div class="row">
                 <div class="col-sm-4"> <img src="assets/img/benefits-1.png" alt="benefits of product">
                     <h4>Explore </h4>
@@ -134,8 +142,8 @@
         <div class="container">
             <!--feature 1-->
             <div class="row">
-                <div class="col-md-7 col-md-push-5 text-center"> <img src="assets/img/feature-1.png" alt="feature"> </div>
-                <div class="col-md-5 col-md-pull-7">
+                <div class="col-md-7 pull-right text-center"> <img src="assets/img/feature-1.png" class="feature-img" alt="feature"> </div>
+                <div class="col-md-5 pull-left">
                     <article>
                         <h2>Explore the Future. Everything is Possible.</h2>
                         <p>Choose what you want to explore and learn about in or outside of class. Simply enter a “Live Pin” from your teacher to access your personalized “Grow Space” which includes:</p>
@@ -150,11 +158,12 @@
             <!--feature 1 end-->
             <!--feature 3-->
             <div class="row">
-                <div class="col-md-7 text-center"> <img src="assets/img/feature-3.png" alt="feature"> </div>
+                <div class="col-md-7 text-center"> <img src="assets/img/feature-3.png" class="feature-img" alt="feature"> </div>
                 <div class="col-md-5">
                     <article>
                         <h2>Make Learning Personal.</h2>
-                        <p>Experience learning from industry professionals about topics that you are interested in and want to pursue in the future. Through the “Grow Space” select your own personalized courses that fit your interests and connect to what you are learning in class. As you learn more, your “Grow Space” will learn more about what you want to learn to make your learning fit you. </p>
+                        <p>Experience learning from industry professionals about topics that you are interested in and want to pursue in the future. Through the “Grow Space” select your own personalized courses that fit your interests and connect to what
+                            you are learning in class. As you learn more, your “Grow Space” will learn more about what you want to learn to make your learning fit you. </p>
                         <!--   <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -166,8 +175,10 @@
             <!--feature 3 end-->
             <!--feature 2-->
             <div class="row">
-                <div class="col-md-7 col-md-push-5 text-center"> <img src="assets/img/feature-2.png" alt="feature"> </div>
-                <div class="col-md-5 col-md-pull-7">
+                <div class="col-md-7 pull-right text-center">
+                    <img src="assets/img/feature-2.png" class="feature-img" alt="feature">
+                </div>
+                <div class="col-md-5 pull-left">
                     <article>
                         <h2>Learn Anywhere. Learn Anytime.</h2>
                         <p>Learn how the stuff you learn in class connects to real careers from any device. In class or outside of class, complete select learning modules in your “Grow Space” that teach you 21st century career skills for your future success.</p>
@@ -182,11 +193,14 @@
             <!--feature 2 end-->
             <!--feature 5-->
             <div class="row">
-                <div class="col-md-7 text-center"> <img src="assets/img/feature-5.png" alt="feature"> </div>
+                <div class="col-md-7 text-center">
+                    <img src="assets/img/feature-5.png" class="feature-img" alt="feature">
+                </div>
                 <div class="col-md-5">
                     <article>
                         <h2>Show What You Know. </h2>
-                        <p>As you complete the coursework in your “Grow Space” you will earn points toward a digital badge. Once you are awarded a digital badge, you will receive a notice on your profile of your new shiny badge that you can show off to colleges, employers, business clients or customers and more. </p>
+                        <p>As you complete the coursework in your “Grow Space” you will earn points toward a digital badge. Once you are awarded a digital badge, you will receive a notice on your profile of your new shiny badge that you can show off to colleges,
+                            employers, business clients or customers and more. </p>
                         <!-- <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -198,11 +212,14 @@
             <!--feature 5 end-->
             <!--feature 4-->
             <div class="row">
-                <div class="col-md-7 col-md-push-5  text-center"> <img src="assets/img/feature-4.png" alt="feature"> </div>
-                <div class="col-md-5 col-md-pull-7">
+                <div class="col-md-7 pull-right text-center">
+                    <img src="assets/img/feature-4.png" class="feature-img" alt="feature">
+                </div>
+                <div class="col-md-5 pull-left">
                     <article>
                         <h2>Show Why Your Talents Are Valuable. </h2>
-                        <p>Through meaningful projects in class from our business partners, you will develop an amazing portfolio of work samples and badges to display on your personal profile. Don’t be shy, use this space to show just how amazing you really are to employers or even your own clients for your business. </p>
+                        <p>Through meaningful projects in class from our business partners, you will develop an amazing portfolio of work samples and badges to display on your personal profile. Don’t be shy, use this space to show just how amazing you really
+                            are to employers or even your own clients for your business. </p>
                         <!--  <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -214,11 +231,14 @@
             <!--feature 4 end-->
             <!--feature 4-->
             <div class="row">
-                <div class="col-md-7 text-center"> <img src="assets/img/feature-9.png" alt="feature"> </div>
+                <div class="col-md-7 text-center">
+                    <img src="assets/img/feature-9.png" class="feature-img" alt="feature">
+                </div>
                 <div class="col-md-5">
                     <article>
                         <h2>Unlock Opportunities. Real-World Application.</h2>
-                        <p>With each digital badge, you unlock work-based learning opportunities from our business partners for you to employ the skills that you have learned in the real-world. You will have the chance to work with all types of businesses to build your professional portfolio, gain work experience and even get paid. </p>
+                        <p>With each digital badge, you unlock work-based learning opportunities from our business partners for you to employ the skills that you have learned in the real-world. You will have the chance to work with all types of businesses
+                            to build your professional portfolio, gain work experience and even get paid. </p>
                         <!-- <ul>
                             <li>Lorem ipsum dolor sit amet</li>
                             <li>Suspendisse rutrum eleifend</li>
@@ -336,15 +356,15 @@
     </section> -->
     <!--Pricing end-->
     <!--cta section-->
-    <section class="cta-section section-spacing text-center" id="roundtable">
+    <section class="cta-section section-spacing text-center">
         <div class="container">
             <header class="section-header">
-                <h2>Join Today!</h2>
-                <h3>Signup for our Business Roundtable and let our students help you do more while you work less.</h3>
+                <h2>Try Launch Today!</h2>
+                <h3>Limited signup only. Order today before the discount period ends.</h3>
             </header>
             <div class="row">
-                <div class="col-md-12"> <a href="https://goo.gl/forms/EQz36ef0yyi140U23" class="btn">GET STARTED</a>
-                    <p>Have a question? Give us a call <a href="tel:+14046540788"> 404-654-0788</a>.</p>
+                <div class="col-md-12"> <a href="index.html" class="btn">GET STARTED</a>
+                    <p>Have a question? Give us a call <a href="tel:+16582144789"> 658-214-4789</a>.</p>
                 </div>
             </div>
         </div>
@@ -453,18 +473,6 @@
     </section>
     <!--contact us end-->
     <!--sub-form-->
-    <!-- Begin MailChimp Signup Form -->
-    <link href="//cdn-images.mailchimp.com/embedcode/slim-10_7.css" rel="stylesheet" type="text/css">
-    <style type="text/css">
-    #mc_embed_signup {
-        background: #fff;
-        clear: left;
-        font: 14px Helvetica, Arial, sans-serif;
-    }
-    /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
-       We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style>
-    <!--End mc_embed_signup-->
     <section class="sub-form section-spacing text-center">
         <div class="container">
             <header class="section-header">
@@ -473,13 +481,9 @@
             </header>
             <div class="row">
                 <div class="col-md-6 center-block col-sm-11">
-                    <form id="mc-form" action="//bizzieteen.us14.list-manage.com/subscribe/post?u=db5162412ad739b254b836fcc&amp;id=dbbd0c2a06">
+                    <form id="mc-form">
                         <div class="input-group">
-                            <input type="email" value="" name="EMAIL" class="email form-control" id="mce-EMAIL" placeholder="Email Address" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                                <input type="text" name="b_db5162412ad739b254b836fcc_dbbd0c2a06" tabindex="-1" value="">
-                            </div>
+                            <input type="email" class="form-control" placeholder="Email Address" required id="mc-email">
                             <span class="input-group-btn">
             <button type="submit" class="btn btn-default">SUBSCRIBE <i class="fa fa-envelope"></i> </button>
             </span> </div>
@@ -495,23 +499,21 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <!--                     <p class="footer-links"><a href="index.html">Terms of Use</a> <a href="index.html">Privacy Policy</a></p>
- -->
+                    <p class="footer-links"><a href="index.html">Terms of Use</a> <a href="index.html">Privacy Policy</a></p>
                 </div>
-                <div class="col-md-4"> <small>&copy; 2017 Bizzieteen. All rights reserved.</small></div>
+                <div class="col-md-4"> <small>&copy; 2015 Launch. All rights reserved.</small></div>
                 <div class="col-md-4">
                     <!--social-->
                     <ul class="social">
-                        <li><a href="https://twitter.com/bizzieteen" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://www.facebook.com/BizzieTeen/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://www.youtube.com/results?search_query=bizzieteen" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.youtube.com/" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
                     </ul>
                     <!--social end-->
                 </div>
             </div>
             <!--chat-btn-->
-            <!--             <a href="#" class="chat-btn" data-toggle="modal" data-target="#modal-contact-form"></a>
- -->
+            <a href="index.html" class="chat-btn" data-toggle="modal" data-target="#modal-contact-form"></a>
             <!--chat-btn end-->
         </div>
     </footer>
@@ -528,7 +530,7 @@
                             <h2>Contact us</h2>
                             <h3>Have any questions? Send us a message.</h3>
                         </header>
-                        <form class="cta-form" action="https://csmthemes.com/themes/launch/video/php/contact.php" method="post">
+                        <form class="cta-form" action="http://csmthemes.com/themes/launch/video/php/contact.php" method="post">
                             <div class="form-group">
                                 <input type="text" name="name" class="contact-name form-control input-lg" placeholder="Name *" id="contact-name">
                             </div>
@@ -551,18 +553,8 @@
         </div>
     </div>
     <!--contact form modal end-->
-    <script src="assets/js/jquery-2.1.4.min.js"></script>
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/waypoints.min.js"></script>
-    <script src="assets/js/jquery.animateNumber.min.js"></script>
-    <script src="assets/js/waypoints-sticky.min.js"></script>
-    <script src="assets/js/retina.min.js"></script>
-    <script src="assets/js/jquery.magnific-popup.min.js"></script>
-    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
-    <script src="assets/js/tweetie.min.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&key=AIzaSyDW_KttiC9QSkcmgZ2YjTY9AqP95Xgu-8M"></script>
-    <script src="assets/js/gmap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="dist/bundle.js"></script>
 </body>
 
 </html>

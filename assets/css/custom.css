@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+    .features .row img,
+    img.feature-img {
+        position: static !important;
+        width: 100% !important;
+    }
+    .features.section-spacing .row {
+        clear: both !important;
+    }
+}
